@@ -1,0 +1,49 @@
+{
+  "name": "product-management-app",
+  "version": "0.1.0",
+  "description": "A modern product management dashboard built with Next.js, Redux Toolkit, and Tailwind CSS — enabling users to browse, create, edit, view, and delete products with a clean and responsive UI.",
+  "private": true,
+  "keywords": [
+    "Next.js",
+    "Redux Toolkit",
+    "Product Management",
+    "CRUD App",
+    "Tailwind CSS",
+    "React",
+    "Product Dashboard",
+    "Inventory Management"
+  ],
+  "author": {
+    "name": "Sajal Das",
+    "email": "sajaldas138900@gmail.com",
+    "url": "https://sajaldas-v2.netlify.app"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings 0",
+    "lint:next": "next lint",
+    "pretty": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "15.5.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
